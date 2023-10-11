@@ -1,0 +1,174 @@
+.product img{
+    /* border-radius: 2px; */
+    width: 80px;
+}
+
+body {
+    background-color: white;
+    background-image: 
+        linear-gradient(to right, lightgrey 1px, transparent 1px),
+        linear-gradient(to bottom, lightgrey 1px, transparent 1px);
+    background-size: 10vw 10vw;
+    background-attachment: fixed; /* This will keep the background fixed when scrolling */
+}
+
+.product{
+    transition: border-color 1s ease-out, opacity 0.5s ease-in-out;
+    border: 2px dashed transparent; 
+    /* border-radius: 8px; */
+    padding: 8px;
+}
+.product.transition-scale {
+    transition: transform 0.3s ease-in-out, border-color 1s ease-out; /* Scale transition */
+}
+
+
+.product.show-border {
+    border-color: #717171; /* Your desired border color */
+}
+
+.headline{
+    position: fixed;
+    width: 100%;
+    top: 6rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3em;
+}
+.monospace{
+    font-family: monospace !important;
+}
+.sansserif{
+    font-family: sans-serif !important;    
+}
+
+.spacer{
+    height: 35000px;
+    /* position: absolute; */
+}
+
+.logo{
+    opacity: 0;
+    position: fixed;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 100px);
+    width: 200px;
+    height: 200px;
+    transition: opacity 1s ease-out;
+}
+
+.screenshot{
+    opacity: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40vw;
+    max-height: 50vh;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.1s ease-in-out;
+    object-fit: contain;
+}
+
+.label {
+    position: fixed;
+    transition: transform 0.3s ease-out;
+    color: white;
+    max-width: 250px;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    transform: scale(0);
+}
+
+.top-left { top: calc(50vh - 120px); right: calc(50vw + 42px); text-align: right; }
+.top-right { top: calc(50vh - 120px); left: calc(50vw + 80px); }
+.bottom-left { top: calc(50vh + 120px); right: calc(50vw + 42px); text-align: right; }
+.bottom-right { top: calc(50vh + 120px); left: calc(50vw + 80px); }
+
+
+.screenshot.fadeOut{
+    opacity: 0;
+}
+
+.auth{
+    position: fixed;
+    top: 30vh;
+    left: 21vw;
+    transform: scale(0);
+}
+
+.gcloud{
+    position: fixed;
+    top: 8vh;
+    left: 15vw;
+    transform: scale(0);
+}
+
+.gpt{
+    position: fixed;
+    top: 29vh;
+    right: 10vw;
+    transform: scale(0);
+}
+
+.github{
+    position: fixed;
+    top: 8vh;
+    right: 15vw;
+    transform: scale(0);
+}
+
+.mongo{
+    position: fixed;
+    top: 47vh;
+    left: 40vw;
+    transform: scale(0);
+}
+
+.postman{
+    position: fixed;
+    top: 52vh;
+    right: 40vw;
+    transform: scale(0);
+}
+
+.vercel{
+    position: fixed;
+    top: 74vh;
+    right: 21vw;
+    transform: scale(0);
+}
+
+.push{
+    position: fixed;
+    top: 78vh;
+    left: 13vw;
+    transform: scale(0);
+}
+
+.vscode{
+    position: fixed;
+    top: 74vh;
+    left: 40vw;
+    transform: scale(0);
+}
+
+.analytics{
+    position: fixed;
+    top: 80vh;
+    right: 40vw;
+    transform: scale(0);
+}
+
+.ec2{
+    position: fixed;
+    top: 36vh;
+    left: 68vw;
+    transform: scale(0);
+}
+
+.logs{
+    position: fixed;
+    top: 58vh;
+    left: 20vw;
+    transform: scale(0);
+}
