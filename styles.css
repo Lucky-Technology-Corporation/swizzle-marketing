@@ -79,10 +79,10 @@ body {
     transform: scale(0);
 }
 
-.top-left { top: calc(50vh - 120px); right: calc(50vw + 42px); text-align: right; }
-.top-right { top: calc(50vh - 120px); left: calc(50vw + 80px); }
-.bottom-left { top: calc(50vh + 120px); right: calc(50vw + 42px); text-align: right; }
-.bottom-right { top: calc(50vh + 120px); left: calc(50vw + 80px); }
+.top-left { top: calc(50vh - 150px); right: calc(50vw + 80px); text-align: right; }
+.top-right { top: calc(50vh - 150px); left: calc(50vw + 80px); }
+.bottom-left { top: calc(50vh + 150px); right: calc(50vw + 80px); text-align: right; }
+.bottom-right { top: calc(50vh + 150px); left: calc(50vw + 80px); }
 
 
 .screenshot.fadeOut{
